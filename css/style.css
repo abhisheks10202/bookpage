@@ -1,0 +1,263 @@
+@import 'utilities.css';
+:root
+{
+
+--primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+
+}
+footer
+{
+color:var(--pure);
+background-color:var(--dark);
+
+}
+*{
+
+padding: 0px;
+margin:0px;
+-webkit-font-smoothing:antialiased;
+box-sizing: 6border-box;
+
+}
+.body1
+{
+background-image:url('../images/hogwarts3.jpg');
+background-size:100% 100%;
+z-index:1;
+}
+
+.container
+{
+padding: 0 0 0 0;
+margin:0 auto;
+/* background-color:var(--dark); */
+}
+.container nav
+{
+width:100%;
+height:100px;
+margin-top:0;
+
+}
+nav:hover
+{
+    /* background-color:var(--dark); */
+    transition: all 0.5s ease;
+/* OPACITY:0.3; */
+}
+
+.container nav img{
+
+width:80px;
+height:80px;
+position:fixed;
+margin-left:600px;
+z-index:3;
+}
+.center .about h1
+{
+
+font-size:3.5rem;
+line-height:4rem;
+
+
+}
+.center .about h4
+{
+
+font-size:1.2rem;
+line-height:1.5rem;
+font-style:arial;
+font-weight:normal;
+/* margin-top:20px; */
+
+
+}
+.center
+{
+margin-top:300px;
+text-align:center;
+
+}
+.center .about
+{
+color:var(--pure);
+text-align:center;
+font-size:1.1rem;
+
+
+}
+.center .about h5
+{
+font-family:Reggae One;
+font-size:1.3rem;
+
+
+}
+.major{
+
+    background-color:black;
+    width:100%;
+    height:2000px;
+}
+.hp
+{
+color:var(--pure);
+font-size:3.6rem;
+text-align:center;
+/* font-family: 'Long Cang', cursive; */
+/* font-family:Reggae One; */
+height:100px;
+width:1100px;
+border-top:1px solid gray;
+border-bottom:1px solid gray;
+padding-top:1.5rem;
+margin-left:100px;
+
+}
+.mrow
+{
+width:100%;
+height:480px;
+margin-top:100px;
+}
+.whole
+{
+width:280px;
+height:530px;
+/* background-color:green; */
+float:left;
+margin-left:50px;
+color:var(--pure);
+font-size:1.2rem;
+text-align:center;
+font-weight:150;
+/* font-family:'Poppins',sans-serif; */
+}
+.hpbook 
+{
+width:280px;
+height:410px;
+background-color:red;
+margin-top:30px;
+color:green;
+border-radius:5px 5px;
+}
+.hpbook img{
+
+width:280px;
+height:410px;
+border-radius:5px 5px;
+
+
+}
+.infobox
+{
+width:1250px;
+height:450px;
+margin-left:50px;
+border:1px solid gray;
+margin-top:100px;
+
+
+
+}
+.infoin1
+{
+
+width:1130px;
+border-bottom:1px  solid gray;
+height:200px;
+/* background-color:yellow; */
+margin-left:60px;
+}
+.infoin1a
+{
+width:200px;
+margin-left:50px;
+height:150px;
+float:left;
+/* background-color:green; */
+margin-top:15px;
+text-align:center;
+
+font-size:1rem;
+font-weight:bold;
+/* padding-top:0.5rem; */
+color:var(--pure);
+
+}
+.infoin1a a
+{
+text-decoration:none;
+color:var(--pure);
+
+}
+.infoin1a1
+{
+    margin-top:15px;
+width:290px;
+margin-left:80px;
+height:150px;
+float:left;
+/* background-color:green; */
+
+}
+.infoin1a1 img{
+
+width:180px;
+height:150px;
+margin-left:70px;
+
+}
+
+.infoin2
+{
+    color:gray;
+    margin-left:60px;
+    width:700px;
+    height:200px;
+    float:left;
+    margin-top:50px;
+}
+.infoin2 h5
+{
+line-height:1.2rem;
+font-size:0.9rem;
+
+
+}
+.infoin2a
+{
+    margin-top:20px;
+float:left;
+background-color:black;
+width:350px;
+height:200px;
+margin-left:80px;
+
+}
+.social
+{
+float:left;
+margin-top:35px;
+margin-left:40px;
+width:45px;
+height:45px;
+border-radius:100%;
+background-color:var(--dark);
+
+}
+.social img{
+/* border-radius:100%; */
+    width:25px;
+    height:15px;
+    /* background-color:transparent; */
+    margin-top:15px;
+    margin-left:10px;
+} */
+
